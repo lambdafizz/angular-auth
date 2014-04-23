@@ -1,0 +1,40 @@
+{
+  "name": "angular-auth-utils",
+  "version": "0.0.0",
+  "description": "Authorization/Authentication framework for angular",
+  "main": "Gruntfile.js",
+  "scripts": {
+    "test": "karma start --single-run"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:lambdafizz/angular-auth.git"
+  },
+  "keywords": [
+    "angular",
+    "authentication",
+    "authorization",
+    "framework"
+  ],
+  "author": "Karol Majta <karol[at]lambdafizz.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lambdafizz/angular-auth/issues"
+  },
+  "homepage": "https://github.com/lambdafizz/angular-auth",
+  "dependencies": {
+    "grunt-cli": "^0.1.13",
+    "grunt": "^0.4.4",
+    "bower": "^1.3.2",
+    "grunt-contrib-watch": "^0.6.1",
+    "grunt-contrib-jshint": "^0.10.0",
+    "karma-cli": "0.0.4",
+    "karma": "^0.12.9",
+    "grunt-karma": "^0.8.2",
+    "grunt-docco": "^0.3.3"
+  },
+  "devDependencies": {
+    "karma-jasmine": "^0.1.5",
+    "karma-phantomjs-launcher": "^0.1.4"
+  }
+}
